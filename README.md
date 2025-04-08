@@ -20,11 +20,11 @@ A simple backend for an e-commerce platform built using Node.js, Express.js, and
 
 ## 📁 Project Structure
 
-/models → Mongoose product schema
-/routes → Express routes for API
-/controllers → Logic for handling routes (optional structure)
-server.js → Entry point of the application
-.env → MongoDB connection URI
+- /models → Mongoose product schema
+- /routes → Express routes for API
+- /controllers → Logic for handling routes (optional structure)
+- server.js → Entry point of the application
+- .env → MongoDB connection URI
 
 
 ## 📦 API Endpoints
@@ -48,6 +48,6 @@ server.js → Entry point of the application
      Example: http://localhost:5000/api/products
 
 🔐 Future Improvements
-     Add user authentication (JWT)
-     Implement user/admin roles
-     Add cart, orders, and payment gateway integration
+   -Add user authentication (JWT)
+   -Implement user/admin roles
+   -Add cart, orders, and payment gateway integration
